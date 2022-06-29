@@ -1,0 +1,50 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 136px;
+}
+.banner-caption {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 0px;
+    color: #8E80A9;
+    margin-bottom: 54px;
+    display: block;
+}
+.banner-title {
+    font-weight: 500;
+    font-size: 265px;
+    line-height: 0px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 50px rgba(123, 121, 161, 0.75);
+    margin-bottom: 148px;
+    display: block;
+    text-transform: uppercase;
+}
+.banner-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.banner-button__icon {
+    width: 9px;
+    height: 17px;
+    background: #E65C7B;
+    padding: 16px 24px;
+    margin-right: 6px;
+}
+.banner-button::after {
+    width: 207px;
+    height: 40px;
+    content: "Запишитесь на бесплатное пробное занятие";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E65C7B;
+    text-align: start;
+}

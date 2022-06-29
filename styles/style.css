@@ -1,0 +1,12 @@
+@import "header.css";
+@import "banner.css";
+@import "info.css";
+
+body {
+    /*min-width: 1440px;*/
+    padding: 0 45px;
+    font-family: 'Montserrat';
+    background-image:  url("../assets/background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

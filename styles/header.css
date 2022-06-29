@@ -1,0 +1,54 @@
+.main__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.logo {
+    width: 126px;
+    height: 48px;
+    left: 140px;
+    top: 51px;
+
+    background: #F9F4F9;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 108px;
+}
+.logo__text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    background: linear-gradient(89.65deg, #807DA4 -6.51%, #D2BFDD 108.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    text-shadow: 0px 0px 50px rgba(123, 121, 161, 0.7);
+}
+.site-navigation {
+    list-style: none;
+    display: flex;
+    margin-right: 106px;
+}
+.site-navigation__item {
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8B7EAC;
+    text-shadow: 0px 0px 20px #ECE7EC;
+    text-transform: uppercase;
+}
+.site-navigation__item:last-child {
+    margin-right: 0;
+}
+.telephone {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    color: #8B7EAC;
+}

@@ -1,0 +1,21 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.social-list {
+    list-style: none;
+    display: flex;
+}
+.social-list__item {
+    margin-right: 10px;
+}
+.social-list__item:last-child {
+    margin-right: 0;
+}
+
+.info-city {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #8B7EAC;
+}
